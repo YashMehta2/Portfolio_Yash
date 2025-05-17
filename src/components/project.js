@@ -3,12 +3,12 @@ import { GithubIcon } from "@/components/Icons";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import project1 from "../../public/images/projects/logo.png";
+import project1 from "../../public/images/projects/Logo.png";
 import project2 from "../../public/images/projects/ANPR.jpg";
 import project3 from "../../public/images/projects/tour.jpg";
 import project4 from "../../public/images/projects/dashboard.png";
 import project5 from "../../public/images/projects/weather.png";
-import project6 from "../../public/images/projects/gsap.png";
+import project6 from "../../public/images/projects/GSAP.png";
 
 const FeaturedProject = ({ type, title, summary, img, link, github }) => {
   return (
