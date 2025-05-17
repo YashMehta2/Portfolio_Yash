@@ -52,44 +52,28 @@ const Experience = () => {
           />
           <ul className="w-full flex flex-col justify-between items-start ml-4">
             <Details
-              position="UX/UI Designer"
-              companyLink="www.designstudio.com"
-              company="Design Studio"
-              time="2016-2018"
-              address="Los Angeles, CA"
+              position="Wordpress Developer Intern"
+              companyLink="https://i-solarlite.com/"
+              company="Sonne Energies PVT. LTD"
+              time="January 2022 – June 2022"
+              address="Mumbai, India"
               work="Designed user interfaces and user experiences for various web and mobile applications. Conducted user testing and iterated on designs for improved usability."
             />
             <Details
-              position="Product Manager"
-              companyLink="www.productcorp.com"
-              company="Product Corp"
-              time="2018-2020"
-              address="Seattle, WA"
-              work="Led cross-functional teams to develop and launch innovative products. Defined product roadmaps, conducted market research, and drove product strategy."
-            />
-            <Details
-              position="Data Analyst Intern"
-              companyLink="www.acme.com"
-              company="Acme Corporation"
-              time="Summer 2019"
-              address="San Francisco, CA"
-              work="Assisted in data collection, analysis, and reporting. Developed custom scripts for data cleaning and visualization."
-            />
-            <Details
-              position="Frontend Developer"
-              companyLink="www.example.com"
-              company="Example Inc."
-              time="2020-2022"
-              address="New York, NY"
+              position="Frontend Developer Intern"
+              companyLink="https://www.openspaceservices.com/"
+              company="Openspace services PVT. LTD"
+              time="May 2023 – November 2023"
+              address="Mumbai, India"
               work="Led the development of responsive and user-friendly web applications, collaborating closely with designers and back-end developers to deliver high-quality products."
             />
 
             <Details
-              position="Software Engineer"
-              companyLink="www.google.com"
-              company="Google"
-              time="2022-Present"
-              address="Mountain View, CA"
+              position="iOS App Developer"
+              companyLink="https://professionalstudies.syracuse.edu/academics/iconsult-collaborative-at-syracuse-university/"
+              company="iConsult Collaborative"
+              time="March 2025 – Present"
+              address="Syracuse, New York"
               work="Worked on a team responsible for developing new features for Google's search engine, including improving the accuracy and relevance of search results and developing new tools for data analysis and visualization."
             />
           </ul>

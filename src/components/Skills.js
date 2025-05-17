@@ -26,12 +26,12 @@ const Skills = () => {
           whileHover={{ scale: 1.05 }}
           className="cursor-pointer p-8 shadow-dark flex items-center justify-center lg:p-6 md:p-4 rounded-full font-semibold bg-dark text-light dark:bg-light dark:text-dark"
         >
-          Web
+          Technical Skills
         </motion.div>
         {/* Name on the Div, the position of that Div when the div is in view */}
-        <Skill name="HTML" x="-25vw" y="2vw" />
+        <Skill name="HTML+CSS" x="-25vw" y="2vw" />
         {/* Name on the Div, the position of that Div when the div is in view */}
-        <Skill name="CSS" x="-5vw" y="-10vw" />
+        <Skill name="Wordpress" x="-5vw" y="-10vw" />
         {/* Name on the Div, the position of that Div when the div is in view */}
         <Skill name="Javascript" x="20vw" y="6vw" />
         {/* Name on the Div, the position of that Div when the div is in view */}
@@ -39,15 +39,18 @@ const Skills = () => {
         {/* Name on the Div, the position of that Div when the div is in view */}
         <Skill name="NextJS" x="-20vw" y="-15vw" />
         {/* Name on the Div, the position of that Div when the div is in view */}
-        <Skill name="GatsbyJS" x="15vw" y="-12vw" />
+        <Skill name="React Native" x="15vw" y="-12vw" />
         {/* Name on the Div, the position of that Div when the div is in view */}
-        <Skill name="Web Design" x="32vw" y="-5vw" />
+        <Skill name="Python" x="32vw" y="-5vw" />
         {/* Name on the Div, the position of that Div when the div is in view */}
-        <Skill name="Figma" x="0vw" y="-20vw" />
+        <Skill name="SQL" x="0vw" y="-20vw" />
         {/* Name on the Div, the position of that Div when the div is in view */}
-        <Skill name="Firebase" x="-25vw" y="18vw" />
+        <Skill name="Node.js" x="-25vw" y="18vw" />
         {/* Name on the Div, the position of that Div when the div is in view */}
-        <Skill name="Tailwind CSS" x="18vw" y="18vw" />
+        <Skill name="FlutterFlow" x="18vw" y="18vw" />
+        <Skill name="Git" x="0vw" y="18vw" />
+        <Skill name="Chart.js" x="-10vw" y="-18vw" />
+        <Skill name="Tableau" x="-10vw" y="-5vw" />
       </div>
     </>
   );

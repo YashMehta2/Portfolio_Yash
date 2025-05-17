@@ -96,31 +96,21 @@ const Navbar = () => {
         <nav>
           <CustomLink href="/" title="Home" className="mr-4 text-3xl" />
           <CustomLink href="/about" title="About" className="mx-4 text-3xl" />
-          <CustomLink
+          {/* <CustomLink
             href="/education"
             title="Education"
             className="ml-4 text-3xl"
-          />
+          /> */}
           <CustomLink
             href="/project"
             title="Project"
             className="ml-4 text-3xl"
           />
-          <CustomLink href="/awards" title="Awards" className="mx-4 text-3xl" />
         </nav>
 
         <nav className="flex items-center justify-center">
           <motion.a
-            href="https://twitter.com"
-            target={"_blank"}
-            whileHover={{ y: -2 }} // move the icon down by 2 on hover
-            whileTap={{ scale: 0.9 }} // enlarge by 0.9, when the user clicks on the icon
-            className="w-9 mr-3"
-          >
-            <TwitterIcon />
-          </motion.a>
-          <motion.a
-            href="https://github.com"
+            href="https://github.com/Yashmehta2"
             target={"_blank"}
             whileHover={{ y: -2 }} // move the icon down by 2 on hover
             whileTap={{ scale: 0.9 }} // enlarge by 0.9, when the user clicks on the icon
@@ -129,7 +119,7 @@ const Navbar = () => {
             <GithubIcon />
           </motion.a>
           <motion.a
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/yash-mehta294"
             target={"_blank"}
             whileHover={{ y: -2 }} // move the icon down by 2 on hover
             whileTap={{ scale: 0.9 }} // enlarge by 0.9, when the user clicks on the icon
@@ -137,24 +127,7 @@ const Navbar = () => {
           >
             <LinkedInIcon />
           </motion.a>
-          <motion.a
-            href="https://pinterest.com"
-            target={"_blank"}
-            whileHover={{ y: -2 }} // move the icon down by 2 on hover
-            whileTap={{ scale: 0.9 }} // enlarge by 0.9, when the user clicks on the icon
-            className="w-9 mx-3 "
-          >
-            <PinterestIcon />
-          </motion.a>
-          <motion.a
-            href="https://dribbble.com"
-            target={"_blank"}
-            whileHover={{ y: -2 }} // move the icon down by 2 on hover
-            whileTap={{ scale: 0.9 }} // enlarge by 0.9, when the user clicks on the icon
-            className="w-9 ml-3"
-          >
-            <DribbbleIcon />
-          </motion.a>
+
           {/* {Onclick of this button, change the mode of the system. If bydefault the mode is light then onclick of this button set it dark.} */}
           <button
             onClick={() => setMode(mode === "light" ? "dark" : "light")}

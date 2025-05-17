@@ -9,6 +9,8 @@ import TransitionEffect from "@/components/TransitionEffect";
 import Skills from "@/components/Skills";
 
 import Articles from "@/components/articles";
+import Experience from "@/components/Experience";
+import Education from "@/components/Education";
 
 const AnimatedNumber = ({ value }) => {
   const ref = useRef(null);
@@ -67,9 +69,9 @@ const about = () => {
                 ))}
               </h2>
               <p className="font-medium xs:text-xl">
-                Hi, I am Yash Mehta, a web developer and UI/UX designer with a
+                Hi, I am Yash Mehta, a frontend and software developer with a
                 passion for creating beautiful, functional, and user-centered
-                digital experiences. With 4 years of experience in the field. I
+                digital experiences. With 2 years of experience in the field. I
                 am always looking for new and innovative ways to bring my
                 clients visions to life.
               </p>
@@ -79,11 +81,11 @@ const about = () => {
                 enjoyable experiences for users.
               </p>
               <p className="font-medium xs:text-xl">
-                Whether I am working on a website, mobile app, or other digital
-                product, I bring my commitment to design excellence and
-                user-centered thinking to every project I work on. I look
-                forward to the opportunity to bring my skills and passion to
-                your next project.
+                Whether I am working on a website, software, mobile app, or
+                other digital product, I bring my commitment to design
+                excellence and user-centered thinking to every project I work
+                on. I look forward to the opportunity to bring my skills and
+                passion to your next project.
               </p>
             </div>
             <div className="col-span-3 relative h-max rounded-2xl border-2 border-solid border-dark bg-light p-8 dark:bg-dark dark:border-light lg:col-span-8">
@@ -97,7 +99,7 @@ const about = () => {
             <div className="col-span-2 flex flex-col items-end justify-between lg:col-span-8 lg:flex-row lg:items-center lg:order-3">
               <div className="flex flex-col items-end justify-center lg:items-start">
                 <span className="inline-block text-5xl font-bold xs:text-2xl">
-                  <AnimatedNumber value="50" />+
+                  <AnimatedNumber value="20" />+
                 </span>
                 <h2 className="text-3xl xs:text-xl font-medium capitalize text-dark/75 dark:text-light/75">
                   Satisfied Clients
@@ -106,7 +108,7 @@ const about = () => {
 
               <div className="flex flex-col items-end justify-center lg:items-start">
                 <span className="inline-block text-5xl font-bold  xs:text-2xl">
-                  <AnimatedNumber value="20" />+
+                  <AnimatedNumber value="10" />+
                 </span>
                 <h2 className="text-3xl xs:text-xl font-medium capitalize text-dark/75 dark:text-light/75">
                   Projects Completed
@@ -115,7 +117,7 @@ const about = () => {
 
               <div className="flex flex-col items-end justify-center lg:items-start">
                 <span className="inline-block text-5xl font-bold xs:text-2xl">
-                  <AnimatedNumber value="10" />+
+                  <AnimatedNumber value="2" />+
                 </span>
                 <h2 className="text-3xl xs:text-xl font-medium capitalize text-dark/75 dark:text-light/75">
                   Years of Experience
@@ -124,9 +126,9 @@ const about = () => {
             </div>
           </div>
           <Skills />
-          {/* <Experience />
-          <Education /> */}
-          <Articles />
+          <Experience />
+          <Education />
+          {/* <Articles /> */}
         </Layout>
       </main>
     </>
